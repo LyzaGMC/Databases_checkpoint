@@ -1,0 +1,57 @@
+Voici une présentation en cinq diapositives qui compare MongoDB (un système de gestion de base de données NoSQL) avec une base de données SQL (comme MySQL ou PostgreSQL). Chaque diapositive couvre un aspect spécifique de cette comparaison.
+
+Diapositive 1: Introduction à SQL et NoSQL
+SQL (Structured Query Language)
+
+Systèmes de gestion de bases de données relationnelles (SGBDR).
+Données organisées sous forme de tables.
+Utilise le langage SQL pour la gestion et la manipulation des données.
+Exemples : MySQL, PostgreSQL, Oracle Database.
+NoSQL
+
+Systèmes de gestion de bases de données non relationnelles.
+Conçu pour gérer des données non structurées ou semi-structurées.
+Prend en charge divers modèles de données (document, clé-valeur, colonne, graphe).
+Exemple : MongoDB, Couchbase, Cassandra.
+
+
+Diapositive 2: Caractéristiques de MongoDB
+Modèle de données : Basé sur des documents (format BSON).
+Flexibilité : Les documents peuvent avoir des structures différentes au sein de la même collection.
+Scalabilité : Scalabilité horizontale facile grâce au sharding (répartition des données sur plusieurs serveurs).
+Performance : Excellente performance pour les lectures et écritures en raison de son modèle sans schéma.
+Indexation : Prise en charge de plusieurs types d'index pour optimiser les requêtes.
+
+
+Diapositive 3: Caractéristiques des bases de données SQL (ex: MySQL)
+Modèle de données : Basé sur des tables avec des lignes et des colonnes.
+Schéma fixe : Nécessite un schéma défini au préalable, ce qui rend les modifications plus complexes.
+Transactions : Prise en charge des transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) pour garantir l'intégrité des données.
+Langage de requête : Utilise le SQL pour la manipulation et la gestion des données.
+Joins : Supporte les opérations de jointure pour lier plusieurs tables ensemble.
+
+
+Diapositive 4: Comparaison entre MongoDB et SQL
+Critère	MongoDB	SQL (MySQL, PostgreSQL)
+Modèle de données	Document (BSON)	Table (lignes et colonnes)
+Flexibilité	Schéma dynamique	Schéma fixe
+Scalabilité	Scalabilité horizontale	Scalabilité verticale (principalement)
+Transactions	Transactions limitées (ACID dans certaines conditions)	Transactions ACID robustes
+Requêtes	Requêtes via API, langage de requête spécifique	Requêtes en SQL avec opérations de jointure
+
+
+Diapositive 5: Cas d'utilisation et conclusion
+Cas d'utilisation de MongoDB:
+
+Applications nécessitant une évolutivité rapide (ex: applications web, IoT).
+Données non structurées ou semi-structurées (ex: contenu multimédia, journaux).
+Prototypage rapide et développement agile.
+Cas d'utilisation des bases de données SQL:
+
+Applications nécessitant une intégrité des données (ex: applications financières).
+Scénarios avec des relations complexes entre les données.
+Applications nécessitant des transactions robustes et des requêtes complexes.
+Conclusion:
+
+Le choix entre MongoDB et SQL dépend des besoins spécifiques de votre application.
+MongoDB est préférable pour des applications flexibles et évolutives, tandis que SQL est idéal pour des applications nécessitant une forte intégrité des données et des relations complexes.
